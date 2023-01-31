@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: rgb(228, 228, 228);
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        header ul {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        header {
+            padding: 10px 0px;
+            background-color:rgba(42, 144, 108, 0.84);
+        }
+
+        header ul li {
+            list-style-type: none;
+            padding: 10px 20px;
+        }
+
+        header ul li a {
+            color: white
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+        }
+
+        .container {
+            padding: 20px;
+            width: 50%;
+        }
+
+        .container-img1 img {
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgb(73, 73, 73);
+        }
+
+        .container-info1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }        
+
+        .container-info2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .container-img2 {
+            width: 55%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 30px 0px;
+        }
+
+        .container-img2 img {
+            width: 50%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgb(73, 73, 73);
+            transition: .5s;
+        }
+        
+        .container-img2 img:hover {
+            width: 80%;
+            height: auto;
+            rotate: 10deg;
+        }
+
+        .container-img2 img {
+            margin: 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">หน้าหลัก</a></li>
+            <li><a href="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/327479072_955594055463159_4713672459270966952_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHNKtba8iu9BnXvV8nQ0rihnmLc3vDqsDaeYtze8OqwNq6S5XaDwkGeUX3TFWTNmrD1d6nW6D7a_wvmILTs1M2L&_nc_ohc=gnw9n-Eh1T0AX_9AIKi&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdSQkKj2nxBnNQwBkO3_lHUhCz-rNazaBn8OZIK3ZEj9Jg&oe=6400A53B">ติดต่อเรา</a></li>
+            <li><a href="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/328668609_1124544004883066_7582212524158434689_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEjtE3rF-Vr1MlBwYuZdwwsvtHoTeiipFC-0ehN6KKkUBEvp2lmHnKT-nPkr1O8Flf5OOeHIoxhqGGsP-QU5ywL&_nc_ohc=qOj7zVYBIWkAX-v6kkg&tn=SRLoCc-eZvgRdvup&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdTfDEfB7rWu3IDsK11Gmfga0oWZVEh4_oyOBJv87FoOWw&oe=6400B3B9">ข้อมูลข่าวสาร</a></li>
+            <li><a href="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/327994583_877471603540491_3756976647511240321_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFOEN-ZXd9sNMArmO7pYPwBCo8NUUq9wdIKjw1RSr3B0u_I885cM2jD6eFp0nHEWyt6G2q9EvCwV8RoLUidYK2Q&_nc_ohc=gTAEwU0l1xkAX9u3dNc&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdQyrEQ2cVSXWrKUyI2j1MQqcUnZA66shHrDlrjzlOwzKw&oe=6400B37D">ผู้จัดทำ</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="container container-img1">
+            <img width="100%" src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/328523650_589735913168740_4850577904133761890_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHM1ichcNfxvPzNCEsS66NHCImw8QsyKUcIibDxCzIpR1McXOVOdl58NYu6V5hh2jd8RlNMIEKGi1r2F0dsghxI&_nc_ohc=OYgDa4Zg3GIAX_rsonc&tn=SRLoCc-eZvgRdvup&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdTh34NrSMc8jgS2WrBGizc96nK4DgBJrUFvXGzGObr3Rw&oe=640078C7" alt="รูปน้ำตก">
+        </div>
+        <div class="container container-info1">
+            <div style="display: flex; flex-wrap: wrap;">
+                <img width="32px" height="32px" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="">
+                <h1>ที่นี้น้ำตกบ้านหาดทราย</h1>
+            </div>
+            <div class="container-img2">
+                <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/327637760_741752720807332_5561474620094523418_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGFx406WZUC0eN0ZvAo8_9RvgWv-UpqcQG-Ba_5SmpxAZB5tiDxv65l96w50jZ4q9mdzChJeAwCIxMVWzOqtI4D&_nc_ohc=XEUPWB4qwAcAX-N5ilJ&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdRFKST8cx7OEh5NXZYb4JR7crVay5CqUQgbpZ-tWXXVQA&oe=6400ADBC" alt="">
+                <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/328313276_696478552021956_7620944608414074517_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHsre8a02j2u5p3nRKDayYv46ds0Er7_Trjp2zQSvv9OqxbXb2aSQAl1Loznt-99Jw-UshptpCyxOzY1700ll2l&_nc_ohc=4AwMz6RSRiAAX-H8bSo&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdTqFq2hLBPlhftZLojnBRFvKthS6J7fk2prPuzQiDZdTQ&oe=640086C8" alt="">
+                <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/328266934_560976236093707_5013909024411790729_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGm3YaUSBXSsdSp47jpBSQga7KPR1efu7Vrso9HV5-7tQNJxeLjof1CGspuSixkKwJwNePI7mT17QfLLuXuH4wh&_nc_ohc=ipQbPj_89dkAX_MuZFF&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdSS8d9whwJKR9LhkrjTH8JaqLgpWn1qYuvntDxullITCg&oe=6400821D" alt="">
+            </div>
+            <div class="container-info2">
+                <div style="text-align: center;">
+                    <h1 style="padding-bottom: 20px;">ที่ตั้งน้ำตกบ้านหาดทราย</h1>
+                    <p>บ้านหาดทราย ต.ธารคีร อ.สะบ้าย้อย จ.สงขลา</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 50px; margin-top: 20px;">
+        <img style="width: 30%; border-radius: 5px; box-shadow: 0px 0px 10px gray;" src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/328693315_1293121691277863_5855729981427746883_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFUn1jqvnK3UeJBx7MY1riNmXhb7mhWX7KZeFvuaFZfss6Fsy-JAuENBsfc6pOouVH48BptXSY-U2cRtowgnpsn&_nc_ohc=j_2-Mc9J_aYAX_-K8FY&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdTMNUH1ey_AIHui1SY_d4ZQygFGnJj0fBM7erCXaMXQIg&oe=6400C61C" alt="">
+        <img style="width: 30%; margin: 0px 10px; border-radius: 5px; box-shadow: 0px 0px 10px gray;" src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/328587616_538252018369008_2231701461656207080_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGeSGNEO0MGLDX1iuGGT_qF_7N0i_whYWn_s3SL_CFhabVi5HClrQwUUHaSaUpuiwgtxv-sCWJ9Oeag68yE5or7&_nc_ohc=-fDp-sKHxYUAX8wY02e&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdTHuDbVPxiJVrNdA7EuSnIs1Jf-yvfU6jK6GQAQl7OmgQ&oe=6400A2F2" alt="">
+        <img style="width: 30%; border-radius: 5px; box-shadow: 0px 0px 10px gray;" src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/328693315_1293121691277863_5855729981427746883_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFUn1jqvnK3UeJBx7MY1riNmXhb7mhWX7KZeFvuaFZfss6Fsy-JAuENBsfc6pOouVH48BptXSY-U2cRtowgnpsn&_nc_ohc=j_2-Mc9J_aYAX_-K8FY&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdTMNUH1ey_AIHui1SY_d4ZQygFGnJj0fBM7erCXaMXQIg&oe=6400C61C" alt="">
+    </div>
+</body>
+</html>
