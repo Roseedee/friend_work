@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saleena</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+        }
+
+        header {
+            width: 100%;
+            height: 400px;
+            background-position: top left;
+            background-size: cover;
+            background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/326454209_497703512480665_2688513555674670087_n.jpg?stp=dst-jpg_p403x403&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGB2F68HtukhzJOdFsDF_Oz7w9CyYJYoT_vD0LJglihP8we9bSFjg1bKc1oC9hL4TvAHJ63rRiBZjSFHIL9HkDR&_nc_ohc=g3QYyoexLGsAX_WGuo5&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQpCHdKRe82j0cUTzVcY4ft6XUsDrK5kNvrclJq4-6bGQ&oe=6401DB7A");
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 10%;
+        }
+
+        .banner {
+            display: block;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(107, 107, 107);
+            transition: .3s;
+        }
+
+        .banner:hover {
+            box-shadow: 0px 0px 10px rgb(107, 107, 107);
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            
+        }
+
+        .container-img {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        .container-img .img, .container-developer .img {
+            background-color: aqua;
+            width: 48%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgb(107, 107, 107);
+            transition: .3s;
+        }
+
+        .container-developer .img a img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .container-img .img:hover, .container-developer .img:hover {
+            box-shadow: 0px 0px 10px rgb(107, 107, 107);
+        }
+
+        .container-developer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <div class="banner">
+            <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/324381851_1567982763698501_8843275976250768986_n.jpg?stp=dst-jpg_p403x403&_nc_cat=105&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEy0gdpwgG1yF9HFGgeGtrHgbDuBovqjCCBsO4Gi-qMIBlmBUsaIcnCbffIOWX8e_c7kA5ynrzBwVrcjkbtz2vd&_nc_ohc=tvwRU-BsSuQAX_YPhke&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRHfVawOzc7bdCb5r7bCNe8i4RU1VP7gXJBR9xeL6EjtA&oe=6401FBE1">
+                <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/327126980_537453468365643_7813844299596915730_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGQHSpuCICzEVbMuWp6AxYkR7pjcEMgBSRHumNwQyAFJEWuJH-_Get12u0YY6AL0SWC11Njql2oZc93cmRLvL2r&_nc_ohc=Fb9MwoqcPVQAX804G_M&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdSBJSQzDIt4W6Zl3T5BOFmViUNsW8-dPDvCk5a32yQkcQ&oe=6401DB93" alt="">
+            </a>
+        </div>
+        <div class="container-img">
+            <div class="img">
+                <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/325467177_510275281217291_7840289148981062794_n.jpg?stp=dst-jpg_p403x403&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFyxvoZAK128JgcVf_aO-P02fTahQf_6AfZ9NqFB__oByCIsA60juvHsLmtOJCwejyPS_GCaezDxwdxhzRSaWPm&_nc_ohc=i5T2rjNTX78AX_DBw6Q&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRkXiwoMdJuDgYNZHtxAMVLko2nfRyek0fIlK2y1o0Y8A&oe=6401DB7C">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/325661462_483647637274489_7394880960713294393_n.jpg?stp=dst-jpg_p403x403&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeHMm8DrhogMmYNDLYxZfjDZ17b0O2eKmHHXtvQ7Z4qYcYNd8ykv4v6r5HwZ4iGjdHKeuO48n6x25INa7ArvTKVg&_nc_ohc=VajfzHdrxyQAX_n9Nmg&_nc_oc=AQkQRwuzSJ_w0TKUV8ZDvEwaeIR3JNsJt6FmEyduuQwqMbXrxrb8W2sJtx3ViBy1a9-H3z_afVh6ZgM6RoIix0ve&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQQoR5sCUwXXR5BaAdGVi477p-8g1xmCCBlFLUWtVKoNw&oe=6401F3D6" alt="">
+                </a>
+            </div>
+            <div class="img">
+                <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/327115942_1185869008730214_2300564486072770768_n.jpg?stp=dst-jpg_p403x403&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGPIiluGrNendGCq4lsHk82-H95427a7yf4f3njbtrvJ4NC2i55Hi6KfCN5tXx16EkTOI9S9lrTqMR8CBajHMpL&_nc_ohc=XCkY3o5WjwAAX8zvPeM&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRZtlau1VVQoR4y3D5nGMsjYNqfr-q8VXgWV7O8N-hb7w&oe=6401F3BD">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/325651645_843070463424771_7469968829592463659_n.jpg?stp=dst-jpg_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeG4GLSusm0OIU8QgoyRW75RX4LZDYekZFtfgtkNh6RkWxAJZ6zezT1RetrivVHESqBA23bfv4fHHraAZlzkBsVR&_nc_ohc=gc0PMv7kDkEAX9P8UVv&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSnQBajauukiqxobiSPQsw4kzzVjtdOHwfA1Zv6TfXnTQ&oe=6401C52F" alt="">
+                </a>
+            </div>
+            <div class="img">
+                <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/326078920_723040389429289_5351253269620872872_n.jpg?stp=dst-jpg_p403x403&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGvKydyZvh7LkoVzB__cZaNmVBNdSkD7ymZUE11KQPvKeJ9oO9lNA_YU3fHsbohGuUDpS4jzVo1XDlbnZaNvCoj&_nc_ohc=eXTqY4_u0OUAX_qnWY0&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSz9aXHHr9Aws9cIogGXtz3u2cZxDwA5KzYbcttJ06k7Q&oe=6401E470">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/325003291_874555373762266_3421570370991597920_n.jpg?stp=dst-jpg_p403x403&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFiaKV63e0x2siku4_rn-RgRXH0XfHbusRFcfRd8du6xJP3o4V0rqHn2oI9a7X0IoNuEBtDGfXpRb57xWtXWtfX&_nc_ohc=aNDYE_42JjEAX9RIzAF&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSvFqoDxK2Ft5EpBfs_oluZsnpXHUfRadKP9E-0ohvFtA&oe=6401E848" alt="">
+                </a>
+            </div>
+            <div class="img">
+                <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/326172771_553720936788250_8699027192656941596_n.jpg?stp=dst-jpg_p403x403&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEsCzQUGqmof0F-sP0_iZNTtkpU10ow-7e2SlTXSjD7t27KC2jXsjkD1BiPqIMLZ66RJJO_-SwEoR1c7RDiLBTq&_nc_ohc=KZ4rqUf0gSYAX-BQmeR&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTzch-WeyCFH_GdneDrZWlhpguoBdLTgD6WvBD4vmaGwQ&oe=6401E70D">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/324538312_886520292394344_2418188175357526080_n.jpg?stp=dst-jpg_p403x403&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFJdRhZ8BCF3OrmE3oBur1oT-EKLfM8ZDNP4Qot8zxkM5GKNPU3q7Gw20QNueQfofpf_Cil6LgU-e9RegLrBoOP&_nc_ohc=ZZZRVsY4ER4AX9XAgLI&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRw04D7SY4mMT0O3FKdYFhD9rPW-J469WIONV0-ld1CaA&oe=6401D6FF" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="container-developer">
+            <div class="img">
+                <a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/327201448_542764691153411_3811063885818562560_n.jpg?stp=dst-jpg_p403x403&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFkdupNizRm-2YR_c8NWKU4MUU8Y9ApH3sxRTxj0Ckfe8UEaeuG7Lm1QkejK0rauluEY5KTnKPo5YgVNTqUTqpw&_nc_ohc=vXhNLrPEACMAX-dQNv2&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRD5y0eVLcQXz0H-yIcfqE6Ak0A2uNpWoAZFm8n6g_6ww&oe=6401C58C">
+                    <img src="https://scontent.fhdy4-1.fna.fbcdn.net/v/t1.15752-9/327767658_567835045339564_6439160335351504107_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFmnojAFL6SqEbe95zvJyUqQnh9-bFBdndCeH35sUF2d6ckT9582CLoNvEXiTFwr4lAUwbcq4bAGZMrT2_nEvsb&_nc_ohc=la3yzl_u0mAAX_5lk3F&_nc_ht=scontent.fhdy4-1.fna&oh=03_AdRVIAsClcJR0dVcOpTM0Iu-LkCZa5rY4NsIaCwA15_kBg&oe=6401E7E8" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
