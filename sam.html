@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samseeyah</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .header {
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/328490890_579179977095856_8672371275078598646_n.png?_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEOAuHXbas6tNr5flL7Nm4h86aGwxRjnRvzpobDFGOdG_VLjbCX-WnIOdXHjw2LvVN1i-1Ueyk6XQ88FG3cJ9Y_&_nc_ohc=NE07rFtDpZQAX-ZliiJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSsGx88KEtr1cVbefSuGEWSLAxCTdh0Gh6FJ-VXpHcb4w&oe=640144F7");
+        }
+
+        .article {
+            display: flex;
+        }
+        
+        .article div {
+            height: auto;
+        }
+        
+        .menu {
+            flex-grow: 1;
+            margin-top: 10px;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .menu-sub {
+            text-align: center;
+            padding: 20px 0px;
+            background-color: aqua;
+            margin: 5px 0px;
+            border-radius: 5px;
+            transition: .5s;
+        }
+
+        .menu-sub:hover {
+            background-color:rgb(193, 207, 207);
+        }
+
+        .information {
+            flex-grow: 3;
+            margin: 15px 10px 10px 10px;
+        }
+        
+        .information img {
+            width: 100%;
+            border-radius: 5px;
+
+        }
+
+        .container-menu {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            flex-grow: 1;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .sub-menu{
+            background-color: antiquewhite;
+            width: 100%;
+            height: 100%;
+            padding: 20px 0px;
+            margin: 0px 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 25px;
+            transition: .5s;
+        }
+        
+        .sub-menu:hover {
+            background-color: rgb(148, 220, 181);
+        }
+        .footer {
+            padding: 50px 0px;
+            text-align: center;
+        }
+
+        .footer a {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="container-menu">
+        <a href="index.html" class="sub-menu">หน้าหลัก</a>
+        <a href="" class="sub-menu">คำแนะนำ</a>
+        <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/328228204_861360765140262_8277145251592410469_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEukg4PKc96zcMHnZSZ-pYVUqE_DjN8WDlSoT8OM3xYOQj-UW9iBf4EnXEY22E-J_LHKqPATnSMu-Vg_-ynwLLO&_nc_ohc=ICGIFy3BFYgAX8WIe-W&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdSmAQKfJ238djIFL9ENLY3hWMDok72D_uR01SDoczcH0g&oe=64019A9E" class="sub-menu">ผู้จัดทำ</a>
+    </div>
+    <div class="article">
+        <div class="menu">
+            <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/328692529_866210074643434_3943439315188255488_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH9PX7fvHSWGmO3CajPaZLPC34_lxHSmxILfj-XEdKbEoRUwBywxEIgUo9s1xytv3iV0sogT_Tp2BboVkEK4FDm&_nc_ohc=zzup_wZ_XCwAX9cl8hw&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdQduIUnfdte7oNgDPn2xD_0Yjy3sObkwsDmOxSVUsSzqA&oe=64017C39" class="menu-sub">แก้วมังกร</a>
+            <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/328685488_750903089788833_7299553855506256998_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeE39ZjL_Sk0LhyMiKakA1sScfrl5NRg4kdx-uXk1GDiRyDzek0Dk5GXrAd6xGhy2qiMwgUP7kpyxgVSbDAvtIfo&_nc_ohc=Y7OylzRG3RwAX9ateLa&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdTbUSboxVUnLSRRzenHDeEgz-tQvs6VSr7znCRqVmSOUg&oe=640198E3" class="menu-sub">อาโวคาโด</a>
+            <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/328722119_569744605030127_1557457325896540361_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEX5U8gxul0lCk2GlEjB6cvOWArmRwPxok5YCuZHA_GiUYckrM4o-3XfzDNUlwbj64SE5eWQNsHQvpVGuMsTJnm&_nc_ohc=67Dg1RpITAMAX-lQuEE&tn=SRLoCc-eZvgRdvup&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdTqgd_crg0qrn26YqRtz-Nvm0Io5X2iZ_ks-wARCqA3yw&oe=6401A0C9" class="menu-sub">แอปเปิลเขียว</a>
+            <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/328709638_694037425836564_3380388997051471173_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFBbEGg53LXsvZnJUqxW6Ea3l4lK83FpSbeXiUrzcWlJrooLPyRgSvX-U4Xdylu4ZR-ZB4BsIsq7YtulLcqNzd2&_nc_ohc=S6fOm9xz8D4AX8O0gS7&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdRir4C14AbeNp8wYaoj1OUhO0zVJP4deP-LIzvbTzBEsA&oe=64017F7A" class="menu-sub">แตงโม</a>
+            <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/324525065_1873218226349994_8027464100350049774_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHgyfnciWOlJZaKMeLHeDdtda-Cm57FYRp1r4KbnsVhGmU5y5u8E1EWrTqL8e1Euhg1-b6A5y2498xhl1v-SNN1&_nc_ohc=Cal3H9MkMVQAX8_OXaR&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdRLH298xjiM2jVPlS5qC3KwzbhmQbItLfmq__MFh8_azA&oe=6401AFCD" class="menu-sub">แคนตาลูป</a>
+            <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/327937076_550088543716841_7576490422599677782_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHCECJOAAxRdxhoDznMuajFnGVNLLChRf6cZU0ssKFF_uVKktC6W-FwksxYvKTxsuSTRjv9idYGv-vrxFVGAeYx&_nc_ohc=HXW24wOPAw8AX8T8SvW&tn=SRLoCc-eZvgRdvup&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdTt0iwkaGtqBclS_NV2oxX4s9DkPVy5wwQ0lhRGkiLDjg&oe=64018036" class="menu-sub">ฝรั่ง</a>
+            <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/328659881_519267940072180_52347134189500269_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHnnsTYrV0lABOOW-TbKLbTA1gRcgegSf0DWBFyB6BJ_Y9i7SDGaUlyVojycwhhgnAx7am3SpGnQQ5A6wVXISY9&_nc_ohc=9EwBm6bCx8YAX_IY3BC&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdQEYzJosHxrxUmUICf6lfpEoYVregmdxSvWTDwO_rdBoA&oe=64019D4F" class="menu-sub">ส้ม</a>
+        </div>
+        <div class="information">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/327676187_1238844373720846_2600671912062660802_n.png?stp=dst-png_p403x403&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeH9V5rFub9iE6nlWMexlH_iNs2PCDlJZhc2zY8IOUlmF3xHCRDGp2PJ36E-yyWyYvy4ryQUCJkJ9CY4CRdQ-QJY&_nc_ohc=_9QGS-E-kcAAX9t-H1F&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSGBWEtZSYxYv3L0vzJiuT3-StmFRF2DWJmO_JvDjO1GQ&oe=640152AD" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.15752-9/328692524_874493807208097_2384423914251893305_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFBIv8YpU1JH8mpp7-ksuqSufP3tC1lo7a58_e0LWWjtqVwGRubSFrc8jiIh90MG7uSYnpXFFWYqo1qkSlzZ5j0&_nc_ohc=YQKHIoSUxnMAX_duYA0&_nc_ht=scontent.fbkk10-1.fna&oh=03_AdT15zo1AL6gsdF3Jq8I0aTdoJLh6N0kBXDEm0L_gvlVaw&oe=64019ABB">ข้อมูลการติดต่อ</a>
+    </div>
+</body>
+</html>
